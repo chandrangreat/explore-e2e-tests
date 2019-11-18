@@ -1,0 +1,20 @@
+{
+  "name": "explore-e2e-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandrangreat/explore-e2e-tests.git"
+  },
+  "keywords": [],
+  "author": "Ravi Chandran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chandrangreat/explore-e2e-tests/issues"
+  },
+  "homepage": "https://github.com/chandrangreat/explore-e2e-tests#readme"
+}
