@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "protractor": "protractor protractor-conf.js",
+    "start-server": "node app.js",
+    "e2e": "start-server-and-test start-server http://localhost:8080 protractor"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/chandrangreat/explore-e2e-tests/issues"
   },
-  "homepage": "https://github.com/chandrangreat/explore-e2e-tests#readme"
+  "homepage": "https://github.com/chandrangreat/explore-e2e-tests#readme",
+  "devDependencies": {
+    "chromedriver": "^78.0.1",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.4.2",
+    "start-server-and-test": "^1.10.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
